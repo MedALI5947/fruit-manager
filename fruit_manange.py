@@ -32,7 +32,7 @@ def vendre(inventaire, fruit, quantite):
 
 
 if __name__ == "__main__":
-    inventaire = ouvrir_inventaire("inventaire.json")
+    inventaire = ouvrir_inventaire("data/inventaire.json")
     afficher_inventaire(inventaire)
     recolter(inventaire, "bananes", 10)
     vendre(inventaire,"bananes", 5)
