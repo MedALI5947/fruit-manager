@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     recolter(inventaire, "bananes", 10)
     inventaire, tresorerie = vendre(
-        inventaire, "bananes", 5, tresorerie,prix
+        inventaire, "bananes", 5, tresorerie,prixp
     )
 
     ecrire_inventaire(inventaire)
